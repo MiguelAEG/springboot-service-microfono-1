@@ -54,4 +54,9 @@ public class MicrofonoServiceImpl implements MicrofonoService {
 	     return null; // Devolver null si el micrófono no existe
 	 }
 
+	@Override
+	public Microfono update(Long id, String name, String marca, java.sql.Date createdAt) {
+		throw new UnsupportedOperationException("Unimplemented method 'update'");
+	}
+
 }
